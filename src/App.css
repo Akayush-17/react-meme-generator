@@ -1,0 +1,95 @@
+
+.Card{
+  position: fixed;
+  top:50%;
+  left:50%;
+  width: 550px;
+  height: 550px;
+  transform: translate(-50%, -50%);
+ 
+  
+  background: #FFFFFF;
+
+}
+
+.header{
+  position: absolute;
+width: 550px;
+height: 65px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.timg{
+  position: relative;
+width: 31.31px;
+height: 26.22px;
+margin-left: 20px;
+top: 19px;
+
+}
+.wrapper{
+  
+  display: flex;
+  left: 20px;
+  
+  
+}
+.title{
+  margin-left: 10px;
+  
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  
+}
+h4{
+  margin-right: 10px;
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+margin-top: 25px;
+}
+.input-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.form-com{
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: 1px solid grey;
+}
+
+.btn1{
+  margin-top: 12px;
+  margin-left: 20px;
+  width: 510px;
+height: 40px;
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.memeimage{
+  height:300px;
+  width:500px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+
+
+
+
